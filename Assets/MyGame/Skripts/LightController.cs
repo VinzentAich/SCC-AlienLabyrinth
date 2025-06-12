@@ -6,10 +6,10 @@ using Unity.VisualScripting;
 public class LightController : MonoBehaviour
 {
     public Light lamp;
-    public float dotDuration = 0.5f;
-    public float dashDuration = 1f;
+    public float dotDuration = 0.3f;
+    public float dashDuration = 9f;
     public float symbolPauseDuration = 0.3f;
-    public float wordPauseDuration = 1.3f;
+    public float wordPauseDuration = 2.1f;
     public string messageToTransmit = "Daten";
     private void Start()
     {
@@ -35,7 +35,7 @@ public class LightController : MonoBehaviour
             if (MorseAlphabet.MorseCode.ContainsKey(letter))
             {
                 string morse = MorseAlphabet.MorseCode[letter];
-                morseCodeText.Append(morse).Append(" "); // Füge ein Leerzeichen zwischen den Symbolen hinzu
+                //morseCodeText.Append(morse).Append(" "); // Füge ein Leerzeichen zwischen den Symbolen hinzu
 
                 foreach (char symbol in morse)
                 {

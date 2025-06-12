@@ -1674,10 +1674,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lamp: {fileID: 1052778410}
-  dotDuration: 0.5
-  dashDuration: 1
+  dotDuration: 0.3
+  dashDuration: 0.9
   symbolPauseDuration: 0.3
-  wordPauseDuration: 1.3
+  wordPauseDuration: 2.1
   messageToTransmit: Daten
 --- !u!1 &1928115190
 GameObject:
@@ -2009,7 +2009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7af804a5558d5da47971bfc38e41449b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myAlienBody: {fileID: 1265849528}
   myContainer: {fileID: 954585884}
   myPortal: {fileID: 2867545382189216856, guid: f5a9adbe11cfe884a849f5f9695faa4a, type: 3}
 --- !u!1 &2004527351
